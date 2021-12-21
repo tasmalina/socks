@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(179, 187, 187);
+    font-family: 'Bad Script', cursive;
+    color: rgb(0, 0, 0);
+    font-weight: 50;
+
+}
+.produckt{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: honeydew;
+    height: 500px;
+    box-shadow: 0 0 10px white;
+    margin: 10px;
+}
+.produckt img{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+    
+}
+.boximg:hover img{
+    transform: scale(1.2);
+
+}
+.first{
+    text-align: center; 
+}
+h3{
+    background-color: lavender;
+    font-size: 20px;
+}
+.boximg{
+    height: 70%;
+    overflow: hidden;
+
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 2px 0 white;
+}
+.menu{
+    text-align: center;
+background-color: rgb(168, 167, 196);
+padding: 15px 0;
+position: fixed;
+width: 100%;
+z-index: 99;
+
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(230, 172, 230);
+    border-radius: 10px;
+    transition: 0.3s;
+    
+padding: 5px ;
+margin: 10px;
+
+}.menu a:hover{
+    color:rgb(230, 172, 230); ;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(230, 172, 230);;
+
+}
+
+    
